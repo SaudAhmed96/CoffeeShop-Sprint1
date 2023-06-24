@@ -1,0 +1,58 @@
+
+/* menu section and options */
+div.menu-cover{
+    background-image: url("../assets/images/coffee-circle.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+
+div.menu-box{
+    width:300px;
+    height: 200px;
+    background-color: #393939;
+}
+
+.menu-headers{
+    color: #fff;;
+    text-align: center;
+}
+
+div.menu-options {
+    width: 100%;
+    background-color: #393939;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.menu-options a{
+    text-decoration: none;
+    color: white;
+}
+
+/* actual menu list items ie hot drinks cold drinks and other beverages */
+/* setting colors */
+section.hot-drinks, section.pastries{
+    background-color: #FFF0ED;
+}
+section.cold-drinks{
+    background-color: #F7F7F7;
+}
+
+.hot-drinks, .cold-drinks, .pastries{
+    text-align: center;
+}
+
+p.info-text{
+    font-size: 18px;
+    font-weight: 400;
+    color: #393939;
+    font-style: italic;
+    width: 400px;
+}
+
+p.price{
+    color:#5BACC3;
+}
