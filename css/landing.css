@@ -1,0 +1,62 @@
+/* formatting the images on the page */
+section img {
+    height: 280px;
+}
+header img{
+    height:500px;
+}
+
+/* formatting header elements */
+nav{
+    background-color: #fff0ed;
+}
+
+div.nitro-info{
+    background-color: #fff0ed;
+}
+
+.card p{
+    color: #5bacc3;
+    font-size: 33px;
+    font-weight: 400;
+}
+
+/* discount formatting */
+.discount{
+    width: 90%;
+    background-color: #393939;
+    text-align: center;
+    
+}
+.discount p{
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+.discount p span{
+    font-weight: 700;
+}
+
+/* button formatting */
+button{
+    background-color: #5bacc3;
+    color:#fff;
+    border: none;
+}
+button:hover{
+    background-color: #3490aa;
+}
+
+/* social logo formatting */
+.social img {
+    width: 50px;
+}
+
+/* footer formatting */
+footer{
+    background-color: #fff0ed;
+}
+.hours p span{
+    font-weight: 700;
+}
