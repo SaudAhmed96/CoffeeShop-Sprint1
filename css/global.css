@@ -50,7 +50,7 @@ a{
 /* BEM used for navigation bar */
 .navbar{
     background-color: #fff0ed;
-    margin-bottom: 6.667rem;
+    /* margin-bottom: 6.667rem; */
     padding: 3rem;
 }
 
