@@ -1,28 +1,155 @@
+
+/* Refactored CSS */
+/* BEM used for navigation bar */
+.navbar{
+    background-color: #fff0ed;
+    margin-bottom: 10rem;
+}
+
+.logoImg{
+    width: 8.333rem;
+    height: 8.333rem;
+}
+
+.navbar__title{
+    font-size: 5.5rem;
+}
+
+.navbar__option{
+    color: #393939;
+}
+
+.navbar__option--highlight{
+    color: #5BACC3;
+}
+
+/* BEM used for hero block */
+
+.heroBlock{
+    background-color: #fff0ed;
+    margin-bottom: 10rem;
+}
+
+.heroBlock__title{
+    margin-bottom: 10rem;
+}
+
+.heroBlock__body{
+    margin: 4rem 0;
+}
+
+.heroBlock__imageContainer{
+    height: 40vw;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.heroBlock__image{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.heroBlock__button{
+    color: #FFF;
+    width: 30rem;
+    padding: 3.333rem;
+    background-color: #5BACC3;
+    border: none;
+}
+
+/* change color of button when mouse hovers over it */
+button:hover{
+    background-color: #3490aa;
+}
+
+/* BEM used for product block */
+
+/* .productBlock{
+    margin-bottom: 10rem;
+} */
+.productBlock__title{
+    margin-bottom: 10rem;
+}
+
+.productBlock__button{
+    color: #FFF;
+    width: 30rem;
+    padding: 3.333rem;
+    background-color: #5BACC3;
+    border: none;
+}
+
+/* .card{
+
+} */
+
+.card__price{
+    color:#5BACC3;
+    font-weight: 400;
+    font-size: 5.5rem;
+}
+
+/* BEM formatting for discount section */
+.discountBlock{
+    margin-bottom: 10rem;
+    width: 90%;
+    background-color: #393939;
+    text-align: center;
+}
+
+.discountBlock__body{
+    color: #FFF;
+    font-size: 7.5rem;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.discountBlock__body--bold{
+    font-weight: 700;
+}
+
+.footerBlock{
+    background-color: #fff0ed;
+}
+
+.footerItem{
+    margin-bottom: 3.333rem;
+}
+
+.footerItem__title{
+    margin-bottom: 3.333rem;
+}
+
+
+
+
+
 /* formatting the images on the page */
-section img {
+/* section img {
     height: 280px;
 }
 header img{
     height:500px;
-}
+} */
 
 /* formatting header elements */
-nav{
+/* nav{
     background-color: #fff0ed;
 }
 
 div.nitro-info{
     background-color: #fff0ed;
-}
+} */
 
-.card p{
+/* .card p{
     color: #5bacc3;
     font-size: 33px;
     font-weight: 400;
-}
+} */
 
 /* discount formatting */
-.discount{
+/* .discount{
     width: 90%;
     background-color: #393939;
     text-align: center;
@@ -36,27 +163,41 @@ div.nitro-info{
 }
 .discount p span{
     font-weight: 700;
-}
+} */
 
 /* button formatting */
-button{
+/* button{
     background-color: #5bacc3;
     color:#fff;
     border: none;
 }
 button:hover{
     background-color: #3490aa;
-}
+} */
 
 /* social logo formatting */
-.social img {
+/* .social img {
     width: 50px;
-}
+} */
 
 /* footer formatting */
-footer{
+/* footer{
     background-color: #fff0ed;
 }
 .hours p span{
     font-weight: 700;
+} */
+
+
+
+/* .hours{
+    margin-bottom: 3.333rem;
 }
+
+.hours__title{
+    margin-bottom: 3.333rem;
+}
+
+.social__title{
+    margin-bottom: 3.333rem;
+} */
