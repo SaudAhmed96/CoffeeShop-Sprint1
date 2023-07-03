@@ -19,7 +19,7 @@ h1,h2{
     font-weight: 300;
 }
 
-h3, nav h2, footer h3{
+h3, footer h3{
     font-size: 5.5rem;
     font-weight: 300;
 }
@@ -36,10 +36,10 @@ ul{
     list-style-type:none;
 }
 
-.coffee-bean-logo{
+/* .coffee-bean-logo{
     width: 8.333rem;
     height: 8.333rem;
-}
+} */
 
 a{
     text-decoration: none;
@@ -47,3 +47,38 @@ a{
 }
 
 
+/* BEM used for navigation bar */
+.navbar{
+    background-color: #fff0ed;
+    margin-bottom: 6.667rem;
+    padding: 3rem;
+}
+
+.logoImg{
+    width: 8.333rem;
+    height: 8.333rem;
+    display: inline-block;
+    /* vertical-align: bottom; */
+}
+
+.navbar__title{
+    font-size: 10rem;
+    display: inline-block;
+    margin: 0 3.333rem 0 0;
+}
+
+.navbar__option{
+    color: #393939;
+    display: inline-block;
+    margin: 0 3.333rem;
+}
+
+.navbar__items{
+    display: inline-block;
+}
+
+.navbar__option--highlight, .navbar__option--highlight a{
+    color: #5BACC3;
+    display: inline-block;
+    margin: 0 1.667rem;
+}
